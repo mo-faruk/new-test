@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(rgb(17, 17, 17), rgba(17, 17, 17, 0.671)), url(./img/man.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+#header-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#nav-bar {
+    width: 100%;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.sign-up-page {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.sign-up-form h1 {
+    color:#1d4350;
+    margin-bottom: 10px;
+} 
+
+.sign-up-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.video h1 {
+    color:  #1d4350;
+    margin-bottom: 10px;
+}
+#mail {
+    margin-bottom: 16px;
+    border: 0;
+    border-bottom: 1px solid #FF6700;
+    border-radius: 4px;
+}
+
+.sign-up-form input[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background: #FF6700; 
+    color: #fff;
+}
+
+.sign-up-form input[type="submit"]:hover {
+    background: gray;
+    cursor: pointer;
+}
+.video-page {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+
+.video {
+    text-align: center;
+    
+}
+
+
+.Mi-Phones {
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.redmi {
+    width: 100%;
+    margin-top: 0px 0px;
+    padding: 5px;
+}
+
+#bottom {
+    background: #FF6700;
+    text-align: center;
+    color: #fff;
+    padding: 16px;
+    margin-bottom: 0;
+    
+}
+
+.fuck {
+    color: #FF6700;
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    nav {
+        padding: 0;
+        margin: 0;
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    #header {
+        padding: 0;
+        margin: 0;
+    }
+    #header-img {
+        padding: 0;
+        margin: 0;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    
+    .video {
+        text-align: center;
+    }
+
+    .video-page {
+        width: 290px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 10px
+    }
+
+} */
+
+
+/* #header-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.sign-up-page {
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sign-up-form {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.video-page {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.video {
+    text-align: center;
+}
+
+.audio {
+
+    height:600px;
+    background-size: cover;
+    background-image: url(https://i01.appmifile.com/webfile/globalimg/in/cms/6B6E6FE5-C266-F2B8-CC29-1D6066F8859D.jpg)
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        padding: 0;
+        margin: 0;
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    #header {
+        padding: 0;
+        margin: 0;
+    }
+    #header-img {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        padding: 0;
+        margin: 0;
+    }
+} */
